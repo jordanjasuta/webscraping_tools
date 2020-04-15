@@ -5,7 +5,9 @@ For a simple example of webscraping, we can use it to pull the data from a Wikip
 
 Note that the xpath parameter of html_nodes() can be found by right-clicking on the element in question and selecting 'inspect':
 
-![alt text](https://github.com/jordanjasuta/Top10Cities/blob/master/inspect.jpg "Inspect")
+<p align="center">
+  <img width="400" src="https://github.com/jordanjasuta/Top10Cities/blob/master/inspect.jpg">
+</p>
 
 This will open the console on the right side of the webpage. In that console, identify the table or other element you want to extract from the webpage and right click on it, selecting 'copy > xpath':
 
