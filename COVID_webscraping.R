@@ -28,7 +28,7 @@ covid_table[6] <-Sys.Date()
 covid_table
 
 
-# for following/repeated datapulls: 
+# to add new rows with subsequent datapulls: 
 
 vals <- c()
 
