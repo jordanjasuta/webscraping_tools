@@ -25,7 +25,7 @@ Sources include: Wikipedia and [the Jakarta Post](http://www.thejakartapost.com/
 
 
 ### heavy formatting
-However, not all data is stored in lightly formatted tables. In light of the COVID-19 pandemic, many countries are publishing daily updates - really useful information! - but in cumbersome, heavily formatted websites. After a few different friends asked me for help with scraping these websites, I came up with a quick for loop to automate these datapulls. Bonus points if you can run it as a scheduled job that updates your df with a new line each day. Code can be found in `COVID_webscraping.R`.
+However, not all data is stored in lightly formatted tables. In light of the COVID-19 pandemic, many countries are publishing daily updates - really useful information! - but in cumbersome, heavily formatted websites. After a few different friends asked me for help with scraping these websites, I came up with a quick for loop to automate these datapulls. Each subsequent running updates the dataframe with a new line, automatically adding the date of the update. Bonus points if you can run it as a scheduled job. Code can be found in `COVID_webscraping.R`.
 
 <p align="center">
   <img width="80%" src="https://github.com/jordanjasuta/Top10Cities/blob/master/imgs/COVID_df.jpg">
