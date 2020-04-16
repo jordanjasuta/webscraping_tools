@@ -7,6 +7,8 @@ During the COVID-19 pandemic, emidemiologists are scrambling to compile informat
   <img height="300" src="https://github.com/jordanjasuta/Top10Cities/blob/master/imgs/Brazil_table.jpg">
 </p>
 
+_Sources: [Minsal Chile](https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/) and [Ministerio da Saude Brasil](https://covid.saude.gov.br/)_
+
 Webscraping tools can save analysts precious time during a rapidly evolving epidemic - or frankly, in any other circumstances. This repo contains R code for scraping websites with minimal formatting (where the html <table> can be easily identified) and those with heavy formatting (where individual elements are bundled in layer after layer of formating containers).
 
 
@@ -31,7 +33,7 @@ One the data is pulled, it can be fed into a ggplot with minimal adjustments to 
 ![alt text](https://github.com/jordanjasuta/Top10Cities/blob/master/imgs/Citiesplot.png "Final plot")
 
 
-Sources include: Wikipedia and [the Jakarta Post](http://www.thejakartapost.com/life/2017/11/03/here-are-10-of-the-most-populated-cities-in-the-world.html)
+_Sources include: Wikipedia and [the Jakarta Post](http://www.thejakartapost.com/life/2017/11/03/here-are-10-of-the-most-populated-cities-in-the-world.html)_
 
 
 ### heavy formatting
