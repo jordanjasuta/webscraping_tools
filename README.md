@@ -42,10 +42,12 @@ However, not all data is stored in lightly formatted tables. Many countries are 
   <img width="80%" src="https://github.com/jordanjasuta/Top10Cities/blob/master/imgs/Belize_table.jpg">
 </p>
 
-_Source: [Government of Belize](https://covid19.bz/)
+_Source: [Government of Belize](https://covid19.bz/)_
 
 To address this, I came up with a quick for loop to automate these datapulls, using Belize's website as an example. Each subsequent running updates the dataframe with a new line, automatically adding the date of the update. Bonus points if you can run it as a scheduled job. Code can be found in `COVID_webscraping.R`.
 
 <p align="center">
   <img width="80%" src="https://github.com/jordanjasuta/Top10Cities/blob/master/imgs/COVID_df.jpg">
 </p>
+
+These data can be updated automatically, and easily merged with corresponding data from other countries into master datasets to produce [regional](https://www.paho.org/en/tag/covid-19-situation-reports) and [global](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports/) reports and [interactive maps](https://who.maps.arcgis.com/apps/webappviewer/index.html?id=2203b04c3a5f486685a15482a0d97a87&extent=-20656313.6818%2C-3596894.4332%2C1611932.8945%2C7390469.7606%2C102100&site=paho). 
