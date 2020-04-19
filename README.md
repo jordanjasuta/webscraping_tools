@@ -1,3 +1,5 @@
+<img align="right" width="115" src="https://github.com/jordanjasuta/webscraping_tools/blob/master/imgs/PAHO_logo.png">
+
 # Webscraping tools
 
 During the COVID-19 pandemic, emidemiologists are scrambling to compile information that will allow them to analyze trends from diverse local sources. In the Americas region, analysts at the Pan-American Health Organization (PAHO/WHO) must pull data daily from dozens of countries' national websites. Some countries publish downloadable compiled datasets; while others only publish data embedded in a website's html. 
