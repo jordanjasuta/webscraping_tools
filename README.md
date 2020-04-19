@@ -3,11 +3,10 @@
 During the COVID-19 pandemic, emidemiologists are scrambling to compile information that will allow them to analyze trends from diverse local sources. In the Americas region, analysts at the Pan-American Health Organization (PAHO/WHO) must pull data daily from dozens of countries' national websites. Some countries publish downloadable compiled datasets; while others only publish data embedded in a website's html. 
 
 <p align="center">
-  <img height="300" src="https://github.com/jordanjasuta/Top10Cities/blob/master/imgs/Chile_table.jpg"> &nbsp; &nbsp; &nbsp;
-  <img height="300" src="https://github.com/jordanjasuta/Top10Cities/blob/master/imgs/Brazil_table.jpg">
+  <img height="300" src="https://github.com/jordanjasuta/Top10Cities/blob/master/imgs/Chile_table.jpg"> 
 </p>
 
-_Sources: [Minsal Chile](https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/) and [Ministerio da Saude Brasil](https://covid.saude.gov.br/)_
+_Source: [Minsal Chile](https://www.minsal.cl/nuevo-coronavirus-2019-ncov/casos-confirmados-en-chile-covid-19/) 
 
 Webscraping tools can save analysts precious time during a rapidly evolving epidemic - or frankly, in any other circumstances. This repo contains R code for scraping websites with minimal formatting (where the html <table> can be easily identified) and those with heavy formatting (where individual elements are bundled in layer after layer of formating containers).
 
@@ -37,7 +36,15 @@ _Sources include: Wikipedia and [the Jakarta Post](http://www.thejakartapost.com
 
 
 ### heavy formatting
-However, not all data is stored in lightly formatted tables. Many countries are publishing daily updates - really useful information! - but in cumbersome, heavily formatted websites. To address this, I came up with a quick for loop to automate these datapulls, using Belize's website as an example. Each subsequent running updates the dataframe with a new line, automatically adding the date of the update. Bonus points if you can run it as a scheduled job. Code can be found in `COVID_webscraping.R`.
+However, not all data is stored in lightly formatted tables. Many countries are publishing daily updates - really useful information! - but in cumbersome, heavily formatted websites. 
+
+<p align="center">
+  <img width="80%" src="https://github.com/jordanjasuta/Top10Cities/blob/master/imgs/Belize_table.jpg">
+</p>
+
+_Source: [Government of Belize](https://covid19.bz/)
+
+To address this, I came up with a quick for loop to automate these datapulls, using Belize's website as an example. Each subsequent running updates the dataframe with a new line, automatically adding the date of the update. Bonus points if you can run it as a scheduled job. Code can be found in `COVID_webscraping.R`.
 
 <p align="center">
   <img width="80%" src="https://github.com/jordanjasuta/Top10Cities/blob/master/imgs/COVID_df.jpg">
