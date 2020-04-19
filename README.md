@@ -1,4 +1,4 @@
-<img align="right" width="300" src="https://github.com/jordanjasuta/webscraping_tools/blob/master/imgs/PAHO_logo.png">
+<img align="right" width="280" src="https://github.com/jordanjasuta/webscraping_tools/blob/master/imgs/PAHO_logo.png">
 
 # Webscraping tools
 
